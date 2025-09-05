@@ -1,10 +1,7 @@
 #set page(
   paper: "us-letter",
   margin: (x:1.8cm, y:1.6cm),
-  header: align(right)[
-    22BCE0511
-  ],
-  numbering: "1",
+  header: context if here().page()==1{""} else {align(right)[22BCE0511]}
 )
 #set text(
   font: "New Computer Modern",
@@ -199,7 +196,7 @@ The `POM.xml` with dependencies can be found #link("https://github.com/pk-vishnu
 #pagebreak()
 
 == Running Job
-After the moving the compiled JAR to `./data`, the job is run by bashing into the Namenode container and running:
+After moving the compiled JAR to `./data`, the job is run by bashing into the Namenode container and running:
 
 `
 bash-4.2$: hadoop jar /data/MapReduce.jar VideoDriver /input/video_views_data.csv /output/completion"
