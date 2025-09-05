@@ -1,0 +1,31 @@
+hadoop-mapper-api:
+    type: Article
+    title: "Mapper (Hadoop MapReduce 3.4.1 API)"
+    publisher: "Apache Software Foundation"
+    url: "https://hadoop.apache.org/docs/stable/api/index.html?org/apache/hadoop/mapred/Mapper.html"
+    accessed: "2025-09-05"
+
+hadoop-reducer-api:
+    type: Article
+    title: "Reducer (hadoop-mapreduce-client-core 3.4.1 API)"
+    publisher: "Apache Software Foundation"
+    url: "https://hadoop.apache.org/docs/stable/api/index.html?org/apache/hadoop/mapred/Reducer.html"
+    accessed: "2025-09-05"
+
+hadoop-mapreduce-tutorial:
+    type: Article
+    title: "MapReduce Tutorial"
+    publisher: "Apache Software Foundation"
+    url: "https://hadoop.apache.org/docs/stable/hadoop-mapreduce-client/hadoop-mapreduce-client-core/MapReduceTutorial.html#Mapper"
+    accessed: "2025-09-05"
+
+macfarquhar-mapreduce-tutorial:
+    type: Article
+    author:
+      - name: "Tyrone Zeka"
+    title: "Word Count with MapReduce in Hadoop and Java"
+    publisher: "Medium"
+    url: "https://medium.com/@mufasadev/word-count-with-mapreduce-in-hadoop-and-java-210c38afba11"
+    accessed: "2025-09-05"
+    parent: 
+      type: Blog
